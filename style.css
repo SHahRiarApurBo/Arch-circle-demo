@@ -83,10 +83,144 @@
 
 .card-2 img {
     max-height: 300px;
-    width: 300px;
+    width: 200px;
 }
 
 .button-3 button {
     background: tomato;
     color: white;
+}
+
+/* footer */
+
+footer {
+    background: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.bttn {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 60px;
+    background-color: orangered;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 0 auto;
+    display: none;
+
+}
+
+.foter-content {
+    width: 80%;
+    height: 300px;
+}
+
+.goal {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.goal h3 {
+    text-transform: capitalize;
+    font-size: 24px;
+    color: orange;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+hr {
+    border: 1px solid gray;
+    ;
+}
+
+.list ul {
+    padding: 20px 0px;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+}
+
+.list ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+
+}
+
+.list ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: grey;
+    font-size: 17px;
+}
+
+
+.social-links {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.social-links i {
+    font-size: 25px;
+    padding: 5px 10px;
+    background: rgba(255, 105, 180, 0.048);
+    margin: 0px 2px;
+    border-radius: 5px;
+}
+
+.social-links a {
+    text-decoration: none;
+
+}
+
+#fb {
+    color: white;
+    animation: icons 1.5s 1.5s ease-in infinite forwards;
+
+}
+
+#ins {
+    color: #feda75;
+    animation: icons 1.5s 1.5s ease-in infinite forwards;
+
+}
+
+#li {
+    color: red;
+    animation: icons 1.5s 1.5s ease-in infinite forwards;
+}
+
+@keyframes buttonEffect {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(100px);
+    }
+}
+
+
+@keyframes icons {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1.1)
+    }
 }
